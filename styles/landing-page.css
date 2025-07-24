@@ -14,17 +14,13 @@
 }
 
 /* shared styles */
-nav,
-.banner-text,
-main {
-  margin-left: 1rem;
-  margin-right: 1rem;
-}
-
 .section-title {
   font-family: "Noto Serif", serif;
   font-size: 1.5rem;
   font-weight: bold;
+}
+.join-title {
+  font-size: 20px;
 }
 .section-description {
   font-family: "Inter", sans-serif;

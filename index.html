@@ -26,7 +26,9 @@
   </head>
   <body class="bg-[#F5F8FF]">
     <header class="pt-14 sm:pt-8 max-w-6xl m-auto mb-16 sm:mb-32">
-      <nav class="flex justify-between items-center inter-font mb-7 sm:mb-64">
+      <nav
+        class="flex justify-between items-center inter-font mx-4 mb-7 sm:mb-64"
+      >
         <img class="w-16 sm:w-36" src="./assets/logo.png" alt="" />
         <div class="flex sm:gap-12">
           <ul class="flex sm:gap-12">
@@ -55,7 +57,7 @@
           src="./assets/hero-flower.png"
           alt="a beautiful flower bouquet"
         />
-        <div class="banner-text">
+        <div class="banner-text mx-4">
           <h1 class="section-title mb-3">
             ALWAYS <span class="text-[#E95A08]">FRESH</span> <br /><span
               class="text-[#E95A08]"
@@ -71,7 +73,7 @@
       </div>
     </header>
     <main>
-      <section class="text-center max-w-6xl m-auto mb-10 sm:mb-52">
+      <section class="text-center max-w-6xl sm:m-auto mx-4 mb-10 sm:mb-52">
         <h2 class="section-title text-5xl mb-4">
           <span class="text-[#E95A08]">Our</span> Plants
         </h2>
@@ -149,7 +151,7 @@
       </section>
 
       <section
-        class="max-w-6xl m-auto mb-36 sm:flex justify-between items-center"
+        class="max-w-6xl sm:m-auto mx-4 mb-36 sm:flex justify-between items-center"
       >
         <img
           class="mb-5"
@@ -177,6 +179,30 @@
               variety of fresh.
             </li>
           </ul>
+        </div>
+      </section>
+
+      <section
+        class="w-full h-full bg-[url(./assets/news-letter-bg.png)] bg-cover bg-no-repeat bg-center text-center"
+      >
+        <div class="pt-26 pb-16 sm:py-72 inter-font">
+          <h2 class="section-title text-white mb-6 join-title">
+            Join the colorful Bunch
+          </h2>
+          <label for="email" class="relative">
+            <input
+              placeholder="Write email"
+              type="email"
+              name=""
+              id="email"
+              class="w-10/12 sm:w-5/9 bg-white text-[rgba(0, 0, 0, 0.50)] py-4 pl-5"
+            />
+            <button
+              class="absolute right-0 bg-[#E95A08] text-white font-semibold py-4 px-3 sm:px-14"
+            >
+              Subscribe
+            </button>
+          </label>
         </div>
       </section>
     </main>

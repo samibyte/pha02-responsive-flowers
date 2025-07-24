@@ -15,12 +15,10 @@
 
 /* shared styles */
 nav,
-.banner-text {
+.banner-text,
+main {
   margin-left: 1rem;
   margin-right: 1rem;
-}
-.nav-link {
-  font-family: "Inter", sans-serif;
 }
 
 .section-title {
@@ -37,6 +35,9 @@ nav,
 /* responsive styles */
 @media screen and (min-width: 40rem) {
   .section-title {
+    font-size: 3rem;
+  }
+  .banner h1 {
     font-size: 4rem;
   }
   .section-description {

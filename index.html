@@ -151,13 +151,20 @@
 
       <!-- Plants Lover section -->
       <section
-        class="max-w-6xl sm:mx-auto mx-4 mb-36 sm:flex justify-between items-center sm:mb-32"
+        class="max-w-6xl sm:mx-auto mx-4 mb-36 sm:flex gap-15 justify-between items-center sm:mb-32"
       >
-        <img
-          class="mb-5"
-          src="./assets/flower-store.png"
-          alt="flower store top view"
-        />
+        <div class="relative">
+          <img
+            class="mb-5"
+            src="./assets/flower-store.png"
+            alt="flower store top view"
+          />
+          <img
+            class="hidden sm:block drop-shadow-[-4px_10px_2px_rgba(0,0,0,0.25)] w-70 absolute top-[-120px] right-[-90px]"
+            src="./assets/trusted-badge.png"
+            alt="trusted badge"
+          />
+        </div>
         <div class="max-w-[540px]">
           <h2 class="section-title sm:max-w-lg mb-4 sm:mb-5">
             Flower & Plants Lover
@@ -233,6 +240,7 @@
               </div>
             </div>
           </div>
+          <!-- deal card second column container -->
           <div class="col-span-1 sm:col-span-2">
             <div
               class="relative w-full h-full rounded-[14px] overflow-hidden mb-5 flex flex-col justify-center items-center"
